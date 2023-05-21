@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; }
+
+footer .resumen {
+  background-color: black;
+  display: flex;
+  height: max-content; }
+  footer .resumen ul {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    footer .resumen ul li {
+      margin: 10px; }
+      footer .resumen ul li h3 {
+        color: white;
+        font-size: 1rem; }
+      footer .resumen ul li ul {
+        padding-left: 0px; }
+        footer .resumen ul li ul li div {
+          height: 15vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          footer .resumen ul li ul li div a {
+            height: fit-content;
+            width: fit-content;
+            margin: 5px; }
+        footer .resumen ul li ul li ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          footer .resumen ul li ul li ul li {
+            color: #ffffff;
+            font-size: 0.6rem; }
+
+footer .copyright {
+  background-color: #000000;
+  border-top: solid white 1px; }
+  footer .copyright div h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 0.8rem; }
+  footer .copyright div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 6px 6px 6px;
+    color: #ffffff;
+    font-size: 0.5rem; }
+    footer .copyright div ul li {
+      padding: 0px 10px 0px 10px; }
+    footer .copyright div ul .espaciado-copy {
+      border-right: solid white 1px; }
+
+header .navbar {
+  background-color: black; }
+  header .navbar .container-fluid .collapse ul li .nav-link {
+    color: #3168D8; }
+    header .navbar .container-fluid .collapse ul li .nav-link:hover {
+      color: #ffffff; }
+    header .navbar .container-fluid .collapse ul li .nav-link img {
+      height: 13vh; }
+  header .navbar .container-fluid form .form-control {
+    border-color: #3168D8; }
+  header .navbar .container-fluid form .btn-outline {
+    color: #ffffff;
+    border-color: #3168D8; }
+
+main {
+  background: linear-gradient(to bottom right, #0800ff, #6b9fff);
+  background-size: contain;
+  background-attachment: fixed;
+  /*INDEX*/
+  /*Productos*/
+  /*Productos y prox*/
+  /*Proximamente*/
+  /*Soporte*/
+  /*Sponsors*/
+  /*Acerca de*/ }
+  main .banner1 .carousel .carousel-inner div img {
+    height: auto; }
+  main .productos-destacados .destacado-caja {
+    margin-top: 30px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly; }
+    main .productos-destacados .destacado-caja div {
+      width: 40vw;
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+      background-color: #000000; }
+      main .productos-destacados .destacado-caja div .foto-destacado-1 {
+        background-image: url(../img/mouse-logitech-superlight.jpg);
+        height: 436px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0px; }
+      main .productos-destacados .destacado-caja div .foto-destacado-2 {
+        background-image: url(../img/teclado-apex-pro.jpg);
+        height: 436px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0px; }
+      main .productos-destacados .destacado-caja div div {
+        background-color: #000000;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        height: fit-content; }
+        main .productos-destacados .destacado-caja div div h3 {
+          padding: 10px 10px 0px 10px; }
+          main .productos-destacados .destacado-caja div div h3 a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 2.5vmax; }
+        main .productos-destacados .destacado-caja div div p {
+          padding: 0px 10px 0px 10px;
+          font-size: 1.3vmax; }
+  main #banner2 h3 {
+    background-image: url(../img/banner2.jpg);
+    height: 436px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; }
+  main .banner-productos a img {
+    height: fit-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px; }
+  main .row {
+    margin: 50px 50px 0px 50px;
+    padding-bottom: 50px; }
+    main .row .col .card {
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; }
+      main .row .col .card .card-body {
+        background-color: #ececec;
+        color: black; }
+  main #banner-proximamente h2 {
+    background-image: url(../img/Banner-proximamente.jpg);
+    height: 436px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0px 0px 0px; }
+  main #banner-soporte img {
+    height: fit-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px; }
+  main #form .form-titulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px; }
+    main #form .form-titulo h2 {
+      font-size: 4rem;
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+  main #form form {
+    margin: 30px 30px 0px 30px;
+    padding-bottom: 30px; }
+  main #sponsors .foto-sponsors {
+    background-image: url(../img/Banner-sponsor.jpg);
+    height: 436px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0px 0px 0px; }
+  main #sponsors div {
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main #sponsors div h2 {
+      margin: 50px 0px 10px 0px;
+      font-size: 50px;
+      text-align: center; }
+    main #sponsors div p {
+      font-size: 20px;
+      text-align: center; }
+  main #logo-sponsors div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; }
+    main #logo-sponsors div a {
+      margin: 25px; }
+      main #logo-sponsors div a img {
+        border-radius: 100px; }
+  main #banner-acerca-de h2 {
+    background-image: url(../img/Banner-acerca-de.jpg);
+    height: 536px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0px 0px 0px; }
+  main #enfoque-web .primier-titulo-acerca-de {
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  main #enfoque-web div h2 {
+    margin: 30px 0px 10px 0px;
+    font-size: 50px;
+    text-align: center; }
+  main #enfoque-web div p {
+    font-size: 20px;
+    text-align: center; }
+  main #enfoque-web .segundo-texto-acerca-de p {
+    padding-bottom: 60px;
+    margin: 0PX;
+    font-size: 20px;
+    text-align: center; }

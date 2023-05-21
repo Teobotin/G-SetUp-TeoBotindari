@@ -1,0 +1,234 @@
+main {
+    background: linear-gradient(to bottom right, rgb(8, 0, 255), rgb(107, 159, 255));
+    background-size: contain;
+    background-attachment: fixed;
+
+    /*INDEX*/
+    .banner1 {
+        .carousel {
+            .carousel-inner {
+                div {
+                    img {
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .productos-destacados {
+        .destacado-caja {
+            margin-top: 30px;
+            height: fit-content;
+            display: flex;
+            justify-content: space-evenly;
+
+            div {
+                width: 40vw;
+                box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+                background-color: #000000;
+
+                .foto-destacado-1 {
+                    background-image: url(../img/mouse-logitech-superlight.jpg);
+                    height: 436px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin: 0px;
+                }
+
+                .foto-destacado-2 {
+                    background-image: url(../img/teclado-apex-pro.jpg);
+                    height: 436px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    margin: 0px;
+                }
+
+                div {
+                    background-color: #000000;
+                    color: #ffffff;
+                    display: flex;
+                    flex-direction: column;
+                    height: fit-content;
+
+                    h3 {
+                        padding: 10px 10px 0px 10px;
+
+                        a {
+                            color: #ffffff;
+                            text-decoration: none;
+                            font-size: 2.5vmax;
+                        }
+                    }
+
+                    p {
+                        padding: 0px 10px 0px 10px;
+                        font-size: 1.3vmax;
+                    }
+                }
+            }
+        }
+    }
+
+    #banner2 h3 {
+        background-image: url(../img/banner2.jpg);
+        height: 436px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 50px 0px 0px 0px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+
+    /*Productos*/
+    .banner-productos {
+        a {
+            img {
+                height: fit-content;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin: 0px;
+            }
+        }
+    }
+
+    /*Productos y prox*/
+    .row {
+        margin: 50px 50px 0px 50px;
+        padding-bottom: 50px;
+
+        .col {
+            .card {
+                box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+                .card-body {
+                    background-color: #ececec;
+                    color: black;
+                }
+            }
+        }
+    }
+    /*Proximamente*/
+    #banner-proximamente{
+        h2{
+            background-image: url(../img/Banner-proximamente.jpg);
+            height: 436px;
+            background-repeat: no-repeat ;
+            background-size: cover;
+            background-position: center;
+            margin: 0px 0px 0px 0px ;
+        }
+    }
+    /*Soporte*/
+    #banner-soporte{
+        img {
+            height: fit-content;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: 0px;
+        }
+    }
+
+    #form {
+        .form-titulo {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 30px;
+
+            h2 {
+                font-size: 4rem;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+        form{
+            margin: 30px 30px 0px 30px;
+            padding-bottom: 30px;
+        }
+    }
+    /*Sponsors*/
+    #sponsors{
+        .foto-sponsors{
+            background-image: url(../img/Banner-sponsor.jpg);
+            height: 436px;
+            background-repeat: no-repeat ;
+            background-size: cover;
+            background-position: center;
+            margin: 0px 0px 0px 0px ;
+        }
+        div{
+            margin: 50px 0px 0px 0px;    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2{
+                margin: 50px 0px 10px 0px;    
+                font-size: 50px;
+                text-align: center;
+            }
+            p{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+    #logo-sponsors{
+        div{
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            a{
+                margin: 25px;
+                img{
+                    border-radius: 100px;  
+                }
+            }   
+        }
+    }
+    /*Acerca de*/
+    #banner-acerca-de{
+        h2{
+            background-image: url(../img/Banner-acerca-de.jpg);
+            height: 536px;
+            background-repeat: no-repeat ;
+            background-size: cover;
+            background-position: center;
+            margin: 0px 0px 0px 0px ;
+        }
+    }
+    #enfoque-web{
+        .primier-titulo-acerca-de{
+            margin: 50px 0px 0px 0px;    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            h2{
+                margin:30px 0px 10px 0px;    
+                font-size: 50px;
+                text-align: center;
+            }
+            p{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        .segundo-texto-acerca-de {
+            p{
+                padding-bottom: 60px;  
+                margin: 0PX;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+}

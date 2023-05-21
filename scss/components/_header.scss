@@ -1,0 +1,31 @@
+header{
+    .navbar{
+        background-color: black;
+        .container-fluid{
+            .collapse{
+                ul{
+                    li{
+                        .nav-link{
+                            color: #3168D8;
+                            &:hover{
+                                color: #ffffff;
+                            }
+                            img{
+                                height: 13vh;
+                            }
+                        }
+                    }   
+                }
+            }
+            form{
+                .form-control{
+                    border-color: #3168D8;
+                }
+                .btn-outline{
+                    color: #ffffff;
+                    border-color: #3168D8;
+                }
+            }
+        }
+    }
+}
