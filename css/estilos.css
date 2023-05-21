@@ -226,3 +226,64 @@ main {
     margin: 0PX;
     font-size: 20px;
     text-align: center; }
+
+/*Index*/
+@media screen and (max-width: 1300px) {
+  .productos-destacados .destacado-caja .destacado-1 .foto-destacado-1 {
+    background-image: url(../img/mouse-logitech-superlight-media1.jpg);
+    height: 300px; }
+  .productos-destacados .destacado-caja .destacado-2 .foto-destacado-2 {
+    height: 300px; } }
+
+/*Header*/
+@media screen and (max-width: 991px) {
+  header .navbar {
+    background-color: #3168D8; }
+    header .navbar .container-fluid .collapse ul li .nav-link {
+      color: black; }
+    header .navbar .container-fluid form .form-control {
+      border-color: black; }
+    header .navbar .container-fluid form .btn-outline-primary {
+      color: black;
+      border-color: black; }
+  main .productos-destacados .destacado-caja .destacado-1 .foto-destacado-1 {
+    background-image: url(../img/mouse-logitech-superlight-media2.jpg);
+    height: 200px; }
+  main .productos-destacados .destacado-caja .destacado-2 .foto-destacado-2 {
+    height: 200px; }
+  main #logo-sponsors div div {
+    display: flex;
+    flex-direction: column; } }
+
+/*index*/
+@media screen and (max-width: 800px) {
+  #banner1 .carousel .carousel-inner div img {
+    height: 300px; } }
+
+@media screen and (max-width: 670px) {
+  .productos-destacados .destacado-caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .productos-destacados .destacado-caja .destacado-1 {
+      margin: 10px 10px 30px 10px;
+      width: 90vw;
+      height: fit-content; }
+      .productos-destacados .destacado-caja .destacado-1 .foto-destacado-1 {
+        background-image: url(../img/mouse-logitech-superlight.jpg);
+        height: 300px !important;
+        width: 100%; }
+      .productos-destacados .destacado-caja .destacado-1 div {
+        width: fit-content;
+        max-height: 100px; }
+    .productos-destacados .destacado-caja .destacado-2 {
+      margin: 10px 10px 30px 10px;
+      width: 90vw;
+      height: fit-content; }
+      .productos-destacados .destacado-caja .destacado-2 .foto-destacado-2 {
+        background-image: url(../img/teclado-apex-pro.jpg);
+        height: 300px !important;
+        width: 100%; }
+      .productos-destacados .destacado-caja .destacado-2 div {
+        width: fit-content;
+        max-height: 100px; } }

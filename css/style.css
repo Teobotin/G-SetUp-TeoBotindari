@@ -385,16 +385,7 @@ footer .copyright div h4{
         flex-direction: column;
         width: fit-content;
     }
-    .productos-destacados .destacado-caja div .foto-destacado-1{
-        background-image: url(../img/mouse-logitech-superlight.jpg);
-        height: 300px;
-        width: 100%;
-    }
-    .productos-destacados .destacado-caja div .foto-destacado-2{
-        background-image: url(../img/162868-gadgets-news-steelseries-has-upgraded-the-apex-pro-tkl-and-made-it-even-faster-image1-ikbn7dxuxr.avif);
-        height: 300px;
-        width: 100%;
-    }
+
 }
 /*600*/
 @media screen and (max-width:600px){
