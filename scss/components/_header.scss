@@ -6,7 +6,7 @@ header{
                 ul{
                     li{
                         .nav-link{
-                            color: #3168D8;
+                            color: $color-principal;
                             &:hover{
                                 color: #ffffff;
                             }
@@ -19,11 +19,11 @@ header{
             }
             form{
                 .form-control{
-                    border-color: #3168D8;
+                    border-color: $color-principal;
                 }
                 .btn-outline{
                     color: #ffffff;
-                    border-color: #3168D8;
+                    border-color: $color-principal;
                 }
             }
         }

@@ -150,7 +150,7 @@ main {
         color: black; }
   main #banner-proximamente h2 {
     background-image: url(../img/Banner-proximamente.jpg);
-    height: 436px;
+    height: 536px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -244,6 +244,10 @@ main {
     header .navbar .container-fluid form .btn-outline-primary {
       color: black;
       border-color: black; }
+  main #banner-acerca-de h2 {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center; }
   main .productos-destacados .destacado-caja .destacado-1 .foto-destacado-1 {
     background-image: url(../img/mouse-logitech-superlight-media2.jpg);
     height: 200px; }
@@ -255,7 +259,9 @@ main {
 
 @media screen and (max-width: 800px) {
   #banner1 .carousel .carousel-inner div img {
-    height: 300px; } }
+    height: 300px; }
+  main #banner-proximamente h2 {
+    height: 436px; } }
 
 @media screen and (max-width: 670px) {
   .productos-destacados .destacado-caja {
@@ -272,7 +278,7 @@ main {
         width: 100%; }
       .productos-destacados .destacado-caja .destacado-1 div {
         width: fit-content;
-        max-height: 100px; }
+        max-height: 150px; }
     .productos-destacados .destacado-caja .destacado-2 {
       margin: 10px 10px 30px 10px;
       width: 90vw;
@@ -283,7 +289,7 @@ main {
         width: 100%; }
       .productos-destacados .destacado-caja .destacado-2 div {
         width: fit-content;
-        max-height: 100px; } }
+        max-height: 150px; } }
 
 @media screen and (max-width: 600px) {
   #form .form-titulo h2 {
@@ -294,7 +300,13 @@ main {
     flex-direction: column;
     align-items: center; }
   #banner2 h3 {
-    height: 300px; } }
+    height: 300px; }
+  main #banner-acerca-de {
+    display: none; }
+  main #enfoque-web .primier-titulo-acerca-de {
+    margin-top: 0px; }
+  main #banner-proximamente h2 {
+    height: 336px; } }
 
 @media screen and (max-width: 458px) {
   footer .resumen ul li ul {
@@ -312,4 +324,6 @@ main {
   main #form .form-titulo h2 {
     font-size: 2.5rem; }
   main #banner2 h3 {
-    height: 200px; } }
+    height: 200px; }
+  main #banner-proximamente h2 {
+    height: 236px; } }
