@@ -5,61 +5,6 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif; }
 
-footer .resumen {
-  background-color: black;
-  display: flex;
-  height: max-content; }
-  footer .resumen ul {
-    width: 100%;
-    display: flex;
-    justify-content: center; }
-    footer .resumen ul li {
-      margin: 10px; }
-      footer .resumen ul li h3 {
-        color: white;
-        font-size: 1rem; }
-      footer .resumen ul li ul {
-        padding-left: 0px; }
-        footer .resumen ul li ul li div {
-          height: 15vh;
-          display: flex;
-          flex-direction: column;
-          align-items: center; }
-          footer .resumen ul li ul li div a {
-            height: fit-content;
-            width: fit-content;
-            margin: 5px; }
-        footer .resumen ul li ul li ul {
-          display: flex;
-          flex-direction: column;
-          justify-content: center; }
-          footer .resumen ul li ul li ul li {
-            color: #ffffff;
-            font-size: 0.6rem; }
-
-footer .copyright {
-  background-color: #000000;
-  border-top: solid white 1px; }
-  footer .copyright div h4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px;
-    padding-bottom: 10px;
-    color: #ffffff;
-    font-size: 0.8rem; }
-  footer .copyright div ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 15px 6px 6px 6px;
-    color: #ffffff;
-    font-size: 0.5rem; }
-    footer .copyright div ul li {
-      padding: 0px 10px 0px 10px; }
-    footer .copyright div ul .espaciado-copy {
-      border-right: solid white 1px; }
-
 header .navbar {
   background-color: black; }
   header .navbar .container-fluid .collapse ul li .nav-link {
@@ -226,6 +171,61 @@ main {
     margin: 0PX;
     font-size: 20px;
     text-align: center; }
+
+footer .resumen {
+  background-color: black;
+  display: flex;
+  height: max-content; }
+  footer .resumen ul {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    footer .resumen ul li {
+      margin: 10px; }
+      footer .resumen ul li h3 {
+        color: white;
+        font-size: 1rem; }
+      footer .resumen ul li ul {
+        padding-left: 0px; }
+        footer .resumen ul li ul li div {
+          height: 15vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          footer .resumen ul li ul li div a {
+            height: fit-content;
+            width: fit-content;
+            margin: 5px; }
+        footer .resumen ul li ul li ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          footer .resumen ul li ul li ul li {
+            color: #ffffff;
+            font-size: 0.6rem; }
+
+footer .copyright {
+  background-color: #000000;
+  border-top: solid white 1px; }
+  footer .copyright div h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 0.8rem; }
+  footer .copyright div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 6px 6px 6px;
+    color: #ffffff;
+    font-size: 0.5rem; }
+    footer .copyright div ul li {
+      padding: 0px 10px 0px 10px; }
+    footer .copyright div ul .espaciado-copy {
+      border-right: solid white 1px; }
 
 @media screen and (max-width: 1300px) {
   .productos-destacados .destacado-caja .destacado-1 .foto-destacado-1 {
