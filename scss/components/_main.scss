@@ -141,7 +141,6 @@ main {
             justify-content: center;
             width: 100%;
             padding: 30px;
-
             h2 {
                 font-size: 4rem;
                 display: flex;
@@ -182,11 +181,15 @@ main {
     }
     #logo-sponsors{
         div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 260px ;
             margin-top: 50px;
-            display: flex;
-            justify-content: center;
+            padding-bottom: 50px;
             a{
-                margin: 25px;
+                display: flex;
+                justify-content: center;
+                padding: 30px;
                 img{
                     border-radius: 100px;  
                 }
